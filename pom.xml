@@ -10,9 +10,8 @@
 	</parent>
 	<groupId>uk.co.lnwatson.challenges</groupId>
 	<artifactId>log4j</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>log4j</name>
-	<description>Log4J Vulnerable API for Le Tour Du Hack 22</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -25,21 +24,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.14.1</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
 			<version>2.14.1</version>
 		</dependency>
 
-
-
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
